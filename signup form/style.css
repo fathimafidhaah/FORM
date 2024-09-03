@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(48, 48, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.signin{
+    height: 80%;
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    position: relative;
+    bottom: 20px;
+    text-shadow: 1px 1px grey;
+}
+
+a{
+    color: white;
+    text-decoration-line: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: rgb(48, 48, 255);
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(99, 99, 236);
+}
